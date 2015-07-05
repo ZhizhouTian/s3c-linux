@@ -1,0 +1,4 @@
+#!/bin/sh
+make
+cp arch/arm/boot/zImage /tftpboot/
+

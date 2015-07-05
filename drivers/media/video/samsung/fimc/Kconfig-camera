@@ -1,0 +1,23 @@
+choice
+	prompt "External Camera"
+	depends on VIDEO_FIMC
+
+config S5K4BA
+	bool "Samsung S5K4BA"
+	depends on VIDEO_FIMC
+	---help---
+	  Samsung S5K4BA mobile camera support
+
+config S5K3BA
+	bool "Samsung S5K3BA"
+	depends on VIDEO_FIMC
+	---help---
+	  Samsung S5K3BA mobile camera support
+
+config REAL6410_CAMERA
+	bool "real6410_camera"
+	depends on VIDEO_FIMC
+	---help---
+	  real6410 camera(OV965X OV3640 TVP5150)support
+
+endchoice

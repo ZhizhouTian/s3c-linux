@@ -1,0 +1,5 @@
+#!/bin/sh
+make xconfig
+make
+cp arch/arm/boot/zImage /tftpboot/
+
